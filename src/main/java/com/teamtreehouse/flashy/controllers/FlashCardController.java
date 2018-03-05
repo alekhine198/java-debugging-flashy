@@ -29,6 +29,7 @@ public class FlashCardController {
       cardCounts = new HashMap<>();
       req.getSession().setAttribute("cardCounts", cardCounts);
     }
+
     return cardCounts;
   }
 
